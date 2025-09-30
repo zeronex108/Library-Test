@@ -2,6 +2,8 @@
 
 Library Management
 
+This is a app for library management.
+
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
