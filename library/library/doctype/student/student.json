@@ -8,6 +8,7 @@
  "field_order": [
   "first_name",
   "last_name",
+  "full_name",
   "date_of_birth",
   "naming_series",
   "gender"
@@ -39,12 +40,18 @@
    "fieldtype": "Select",
    "label": "Gender",
    "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-30 23:14:47.482974",
+ "modified": "2025-09-30 23:38:52.664919",
  "modified_by": "Administrator",
  "module": "Library",
  "name": "Student",
